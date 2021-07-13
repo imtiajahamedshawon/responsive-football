@@ -1,0 +1,21 @@
+/* football players */
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 900px;
+    max-width: 90%;
+    margin: 0auto;
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+
+.player img{
+    width: 56px;
+    height: 56px;
+}
+
