@@ -6,16 +6,84 @@
 main{
     width: 900px;
     max-width: 90%;
-    margin: 0auto;
+    margin: 0 auto;
+   
 }
-.player{
+header{
+    
+    background-color:#fceae8 ;
+   
+}
+.header-area{
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+/* section{
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+} */
+
+.single-players{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(2,1fr);
+}
+.banner img{
+    width: 580px;
+    height:400px ;
+   
+}
+.container-text{
+   
+    padding: 30px 0px;
+}
+button{
+    border: none;
+    margin-top: 8px;
+    padding: 15px 30px;
+    font-size: 20px;
+   background-color: white;
 }
 
+.home-two-sec h1{
+    width: 350px;
 
+}
+.Team{
+    margin-top: 20px;
+    color: salmon;
+    font-weight: bold;
+}
+.players{
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+    grid-gap: 20px;
+   
+  
+}
+.single-player{
+    border:1px solid ;
+    padding: 20px;
+}
+.single-player p{
+      color: grey;
+}
+.single-player h3{
+    color: salmon;
+    text-align: center;
+}
 .player img{
-    width: 56px;
-    height: 56px;
+    width: 280px;
+    height: 200px;
+}
+.hightlight-part{
+   display: flex;
 }
 
